@@ -1,0 +1,134 @@
+*{ 
+font-family: 'Playfair Display', serif;
+box-sizing: border-box;
+margin: 0px;}
+
+
+#nav_bar{
+width: 100vw;
+height: 70px;
+background-color: rgb(58, 56, 56);
+color: white;
+display: flex;
+justify-content: space-between;
+padding-right: 20px;
+position: fixed;
+z-index: 6;
+}
+#logo{
+margin-top:15px;
+padding-left: 20px;;
+}
+#header{
+margin-top:20px;
+padding-right: 20px;
+}
+#header a{
+
+padding-left: 10px;
+text-decoration: none;
+text-transform: uppercase;
+color: white;
+}
+.wallpaper{
+
+width: 100vw;
+height: 60vh;
+background-color: black;
+background: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url('../images/portrait.jpg');  
+background-repeat: no-repeat;
+background-size:cover;
+
+
+}
+.smalldiv{
+position: absolute;
+margin-top: 30vh;
+margin-left:10vw;
+display: flex;
+justify-content: space-between;
+width: 80vw;
+height: 54vh;
+background-color: #fff;
+box-shadow: 5px 10px 18px #888888;
+overflow: hidden;
+}
+
+.mothername{
+color:#867070 ;
+padding-top: 15vh;
+padding-left: 50px;
+padding-right: 10px;
+}
+.quoname{
+position: absolute;
+right:420px;
+}
+.details{
+margin-top: 300px;
+display: flex;
+justify-content: space-between;
+width: 90vw;
+height: 90vh;
+}
+.imgabt{
+margin-left: 10vw;
+box-shadow: 5px 10px 18px #888888;
+height: 500px;
+}
+.abtdetails{
+margin-left: 10vw;
+height: 500px;
+width: 700px;
+margin-top: 10px;
+}
+.abthead{
+color: #867070;
+text-align: center;
+padding-bottom: 40px;
+}
+.abtparadet{
+color: #807f7f;
+font-size: 18px;
+}
+.listmodal{
+margin-top: 100px;
+display: flex;
+justify-content: space-between;
+width: 90vw;
+height: 90vh;  
+}
+.singleimg{
+margin-top: 20px;
+box-shadow: 5px 10px 18px #888888;
+height: 600px;
+width: 100vw;
+
+}
+li{
+color:#807f7f;
+}
+.listeach{
+margin-left: 5vw;
+height: 500px;
+width: 60vw;
+margin-top: 10px;
+font-size: 18px;
+}
+.formore{
+width: 100vw;
+text-align: center;
+margin-bottom: 50px;
+}
+.link1 {
+text-decoration: none;
+}
+.footer{
+background-color: black;
+color: white;
+width: 100vw;
+text-align: center;
+margin-bottom: 0px;
+height: 70px;
+padding-top: 20px;
+}
